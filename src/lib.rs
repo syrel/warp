@@ -88,7 +88,7 @@
 
 #[macro_use]
 mod error;
-mod filter;
+pub mod filter;
 pub mod filters;
 mod generic;
 pub mod redirect;
